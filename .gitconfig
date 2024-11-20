@@ -1,0 +1,7 @@
+[user]
+	name = d-user11
+	email = 60410862+d-user11@users.noreply.github.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
