@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "Setting dotfiles ..."
+echo "Linking dotfiles ..."
 
 dotfiles=$(find . -maxdepth 1 -type f -printf "%f\n" | grep "^\.")
 
 for dotfile in $dotfiles; do
-   ln -vis $PWD/$dotfile ~/$dotfile
+   ln -vfs $PWD/$dotfile ~/$dotfile
 done
 
 echo "Create ssh key for GitHub ..."
