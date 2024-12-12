@@ -1,0 +1,9 @@
+aaron-bond.better-comments
+davidanson.vscode-markdownlint
+donjayamanne.githistory
+eamodio.gitlens
+Equinusocio.vsc-material-theme-icons
+oderwat.indent-rainbow
+streetsidesoftware.code-spell-checker
+timonwong.shellcheck
+wayou.vscode-todo-highlight
