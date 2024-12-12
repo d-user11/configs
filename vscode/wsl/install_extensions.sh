@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# TODO: Make use of code --list-extensions
 extensions_file="extensions.txt"
 
 if [[ -f $extensions_file ]]; then
