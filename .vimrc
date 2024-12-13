@@ -82,3 +82,6 @@ inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
 " 
 set autoindent expandtab tabstop=4 shiftwidth=4
+
+"
+colorscheme blue
