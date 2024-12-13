@@ -21,10 +21,12 @@ printf "\n[+] Installing extensions ...\n\n"
 
 if [[ -s $extensions_file ]]; then
 
-    while IFS= read -r extension; do
+    extensions=$(cat $extensions_file | sed '/^$/d');
+
+    for extension in $extensions; do
         code --force --install-extension $extension
         echo
-    done < "$extensions_file"
+    done
 
 else
     echo "[-] File $extensions_file might not exist or is empty."
