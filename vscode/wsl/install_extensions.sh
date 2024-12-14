@@ -6,11 +6,11 @@ echo "[?] Checking for extensions to be removed ..."
 
 extensions_to_be_removed=$(diff <(code --list-extensions | sort) <(cat $extensions_file | sort) | grep "^< " | sed 's/^< //')
 
-if [[ ! -z "${extensions_to_be_removed}" ]]; then
+if [[ -n "${extensions_to_be_removed}" ]]; then
     printf "\n[!] Removing extensions ...\n\n"
 
     for extension in $extensions_to_be_removed; do
-        code --uninstall-extension $extension
+        code --uninstall-extension "$extension"
         echo
     done
 else
@@ -24,7 +24,7 @@ if [[ -s $extensions_file ]]; then
     extensions=$(cat $extensions_file | sed '/^$/d');
 
     for extension in $extensions; do
-        code --force --install-extension $extension
+        code --force --install-extension "$extension"
         echo
     done
 
