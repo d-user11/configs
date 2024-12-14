@@ -4,7 +4,7 @@ extensions_file="extensions.txt"
 
 echo "[?] Checking for extensions to be removed ..."
 
-extensions_to_be_removed=$(diff <(code --list-extensions | sort) <(cat $extensions_file | sort) | grep "^< " | sed 's/^< //')
+extensions_to_be_removed=$(diff <(code --list-extensions | grep -v "^Extensions " | sort) <(cat $extensions_file | sort) | grep "^< " | sed 's/^< //')
 
 if [[ -n "${extensions_to_be_removed}" ]]; then
     printf "\n[!] Removing extensions ...\n\n"
