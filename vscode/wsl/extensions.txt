@@ -7,3 +7,4 @@ streetsidesoftware.code-spell-checker
 timonwong.shellcheck
 wayou.vscode-todo-highlight
 pkief.material-icon-theme
+redhat.vscode-yaml
