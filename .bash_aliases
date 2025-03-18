@@ -9,3 +9,5 @@ alias gsh="git show"
 alias gls="git log --oneline"
 alias glg="git lg"
 alias gpoh="git push origin HEAD"
+
+alias k="kubectl"
