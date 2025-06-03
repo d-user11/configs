@@ -26,3 +26,5 @@ alias pipiup='pipiu pip'
 alias pipf='pip freeze'
 alias pipfr='pipf > requirements.txt'
 alias pipir='pipi -r requirements.txt'
+
+alias tf='terraform'
