@@ -118,3 +118,6 @@ if ! shopt -oq posix; then
 fi
 
 export PATH="/home/luser/.local/bin:$PATH"
+
+complete -C /usr/bin/terraform terraform
+
