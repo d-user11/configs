@@ -14,8 +14,8 @@ alias k="kubectl"
 
 
 alias python='python3'
-alias pvnv='python -m venv .venv'
-alias vnv='. .venv/bin/activate'
+alias vnv='python -m venv .venv'
+alias activate='. .venv/bin/activate'
 
 # pip
 alias pip='pip3'
