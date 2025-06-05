@@ -3,6 +3,7 @@ davidanson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
 hashicorp.terraform
+noorashuvo.simple-coding-time-tracker
 oderwat.indent-rainbow
 pkief.material-icon-theme
 redhat.vscode-yaml
