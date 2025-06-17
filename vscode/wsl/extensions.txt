@@ -3,6 +3,7 @@ davidanson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
 hashicorp.terraform
+hiberbee.hiberbee-vscode-theme
 oderwat.indent-rainbow
 pkief.material-icon-theme
 redhat.vscode-yaml
