@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function remove_all_from_docker() {
+    # Remove all containers
+    docker rm --force $(docker ps --all --quiet)
+    # Remove all unused images
+    docker system prune --all --force
+    # Remove all local volumes not used by at least one container
+    docker volume prune --all --force
+    # Remove all unused Docker networks, except for the default ones
+    docker network prune --force
+}
