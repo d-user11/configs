@@ -18,7 +18,6 @@ alias vnv='python -m venv .venv'
 alias activate='. .venv/bin/activate'
 
 # pip
-alias pip='pip3'
 alias pipi='pip install'
 alias pipu='pip uninstall'
 alias pipiu='pipi --upgrade'
