@@ -1,5 +1,6 @@
 aaron-bond.better-comments
 adamhartford.vscode-base64
+amazonwebservices.aws-toolkit-vscode
 davidanson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
@@ -7,6 +8,7 @@ hashicorp.terraform
 hiberbee.hiberbee-vscode-theme
 inferrinizzard.prettier-sql-vscode
 mohsen1.prettify-json
+ms-python.python
 oderwat.indent-rainbow
 pkief.material-icon-theme
 redhat.vscode-yaml
