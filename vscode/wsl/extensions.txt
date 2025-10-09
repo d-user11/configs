@@ -4,6 +4,7 @@ amazonwebservices.aws-toolkit-vscode
 davidanson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
+gruntfuggly.todo-tree
 hashicorp.terraform
 hiberbee.hiberbee-vscode-theme
 inferrinizzard.prettier-sql-vscode
