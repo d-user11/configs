@@ -20,3 +20,7 @@ timonwong.shellcheck
 wakatime.vscode-wakatime
 wayou.vscode-todo-highlight
 wtetsu.tempfile
+charliermarsh.ruff
+ms-python.debugpy
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
