@@ -1,6 +1,7 @@
 aaron-bond.better-comments
 adamhartford.vscode-base64
 amazonwebservices.aws-toolkit-vscode
+ban.spellright
 davidanson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
