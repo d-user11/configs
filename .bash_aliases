@@ -27,3 +27,5 @@ alias pipfr='pipf > requirements.txt'
 alias pipir='pipi -r requirements.txt'
 
 alias tf='terraform'
+
+alias byte_to_human='numfmt --to=iec-i --suffix=B --format="%9.2f"'
